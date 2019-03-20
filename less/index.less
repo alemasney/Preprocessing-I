@@ -99,6 +99,7 @@ html, body {
 
 			@media ( max-width: @phone ) {
 				width: 100%;
+				display: .center();
 			}
 
 			header {
@@ -107,6 +108,14 @@ html, body {
 				width: 100%;
 				justify-content: center;
 				align-items: center;
+
+				@media ( max-width: @phone ) {
+					margin-top: 0px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 140px;
+				}
 
 				h1 {
 					font-size: 50px;
@@ -230,6 +239,7 @@ html, body {
 
 		@media ( max-width: @phone ) {
 			width: 100%;
+			margin-top: 140px;
 		}
 
 		img {
