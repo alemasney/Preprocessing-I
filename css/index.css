@@ -151,7 +151,7 @@ body {
   background-color: #d8c4c4;
   width: 10%;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container .layout .style-div {
     display: none;
   }
@@ -160,7 +160,7 @@ body {
   order: 2;
   width: 60%;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container .layout .main-content {
     width: 100%;
     display: [object Object],[object Object];
@@ -176,7 +176,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container .layout .main-content header {
     margin-top: 0px;
     position: absolute;
@@ -189,7 +189,12 @@ body {
   font-size: 50px;
   letter-spacing: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+  .container .layout .main-content header h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 700px) {
   .container .layout .main-content header h1 {
     font-size: 40px;
   }
@@ -225,12 +230,12 @@ body {
 .container .layout .main-content header .contact-info p:first-child {
   margin-left: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container .layout .main-content header .contact-info {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container .layout .main-content header {
     width: 100%;
   }
@@ -242,7 +247,7 @@ body {
   margin: 10px auto;
 }
 .container .layout .main-content .section-container h2 {
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
 }
 .container .layout .main-content .section-container section {
@@ -254,6 +259,9 @@ body {
   margin: 5px;
 }
 .container .layout .main-content .section-container .experience p {
+  margin: 10px;
+}
+.container .layout .main-content .section-container .experience li {
   margin: 10px;
 }
 .container .layout .main-content .section-container .title-position {
@@ -278,7 +286,7 @@ body {
   flex-direction: column;
   background-color: #696060;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container aside {
     width: 100%;
     margin-top: 140px;
@@ -288,7 +296,7 @@ body {
   width: 220px;
   margin: 70px auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container aside img {
     width: 250px;
   }
