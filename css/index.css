@@ -253,7 +253,6 @@ body {
 .container .layout .main-content .section-container section {
   display: flex;
   flex-direction: column;
-  margin: 10px;
 }
 .container .layout .main-content .section-container .about-me p {
   margin: 5px;
