@@ -59,7 +59,7 @@ html, body {
 
 @ribbon-color:  rgb(216, 196, 196);
 @primary-color: rgb(105, 96, 96);
-@phone: 500px;
+@phone: 700px;
  
  
 .center() {
@@ -88,6 +88,10 @@ html, body {
 			.top-ribbon();
 			width: 10%;
 
+			@media (max-width: 900px) {
+			 	
+			}
+
 			@media ( max-width: @phone ) {
 				display: none;
 			}
@@ -109,6 +113,10 @@ html, body {
 				justify-content: center;
 				align-items: center;
 
+				@media (max-width: 900px) {
+
+				}
+
 				@media ( max-width: @phone ) {
 					margin-top: 0px;
 					position: absolute;
@@ -120,6 +128,10 @@ html, body {
 				h1 {
 					font-size: 50px;
 					letter-spacing: 5px;
+
+					@media (max-width: 900px) {
+						font-size: 40px;
+					}
 
 					@media ( max-width: @phone ) {
 						font-size: 40px;
@@ -184,7 +196,7 @@ html, body {
 				margin: 10px auto;
 
 				h2 {
-					margin: 20px auto;;
+					margin: 10px auto;;
 					text-align: center;
 					}
 
@@ -204,7 +216,10 @@ html, body {
 					
 					p {
 						margin: 10px;
+					}
 
+					li {
+						margin: 10px;
 					}
 				}
 
